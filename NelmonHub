@@ -1,0 +1,143 @@
+
+
+local MainGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local AstroHub = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local JohnDoeHub = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local KronoHub = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local MegaHub = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Number1Text = Instance.new("TextLabel")
+local SplitLabel = Instance.new("TextLabel")
+
+
+
+MainGui.Name = "MainGui"
+MainGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+MainGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+MainGui.ResetOnSpawn = false
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = MainGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.189169675, 0, 0.318823576, 0)
+MainFrame.Size = UDim2.new(0, 982, 0, 307)
+MainFrame.Active = true
+MainFrame.Draggable = true
+
+Title.Name = "Title"
+Title.Parent = MainFrame
+Title.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+Title.BorderSizePixel = 0
+Title.Size = UDim2.new(0, 980, 0, 31)
+Title.Font = Enum.Font.Arial
+Title.Text = "Nelmon Hub -v2.23.1"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+AstroHub.Name = "AstroHub"
+AstroHub.Parent = MainFrame
+AstroHub.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+AstroHub.BorderSizePixel = 0
+AstroHub.Position = UDim2.new(0.0426275358, 0, 0.149375796, 0)
+AstroHub.Size = UDim2.new(0, 200, 0, 34)
+AstroHub.AutoButtonColor = false
+AstroHub.Font = Enum.Font.SciFi
+AstroHub.Text = "Astro Hub"
+AstroHub.TextColor3 = Color3.fromRGB(213, 60, 255)
+AstroHub.TextScaled = true
+AstroHub.TextSize = 14.000
+AstroHub.TextWrapped = true
+AstroHub.MouseButton1Down:connect(function()
+	require(9120266243).load("NotNelmon")
+
+end)
+
+UICorner.Parent = AstroHub
+
+JohnDoeHub.Name = "John Doe Hub"
+JohnDoeHub.Parent = MainFrame
+JohnDoeHub.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+JohnDoeHub.BorderSizePixel = 0
+JohnDoeHub.Position = UDim2.new(0.518638253, 0, 0.149375796, 0)
+JohnDoeHub.Size = UDim2.new(0, 200, 0, 34)
+JohnDoeHub.AutoButtonColor = false
+JohnDoeHub.Font = Enum.Font.SciFi
+JohnDoeHub.Text = "John Hub"
+JohnDoeHub.TextColor3 = Color3.fromRGB(255, 238, 172)
+JohnDoeHub.TextScaled = true
+JohnDoeHub.TextSize = 14.000
+JohnDoeHub.TextWrapped = true
+JohnDoeHub.MouseButton1Down:connect(function()
+	require(8973689388).load("NotNelmon")
+end)
+
+UICorner_2.Parent = JohnDoeHub
+
+KronoHub.Name = "KronoHub"
+KronoHub.Parent = MainFrame
+KronoHub.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+KronoHub.BorderSizePixel = 0
+KronoHub.Position = UDim2.new(0.288686365, 0, 0.149375796, 0)
+KronoHub.Size = UDim2.new(0, 200, 0, 34)
+KronoHub.AutoButtonColor = false
+KronoHub.Font = Enum.Font.SciFi
+KronoHub.Text = "Krono Hub"
+KronoHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+KronoHub.TextScaled = true
+KronoHub.TextSize = 14.000
+KronoHub.TextWrapped = true
+KronoHub.MouseButton1Down:connect(function()
+	require(9299043583).load("NotNelmon")
+end)
+
+UICorner_3.Parent = KronoHub
+
+MegaHub.Name = "Mega Hub"
+MegaHub.Parent = MainFrame
+MegaHub.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+MegaHub.BorderSizePixel = 0
+MegaHub.Position = UDim2.new(0.748592198, 0, 0.149375796, 0)
+MegaHub.Size = UDim2.new(0, 200, 0, 34)
+MegaHub.AutoButtonColor = false
+MegaHub.Font = Enum.Font.SciFi
+MegaHub.Text = "Mega Hub"
+MegaHub.TextColor3 = Color3.fromRGB(255, 16, 100)
+MegaHub.TextScaled = true
+MegaHub.TextSize = 14.000
+MegaHub.TextWrapped = true
+MegaHub.MouseButton1Down:connect(function()
+	require(8804198206).load("NotNelmon")
+end)
+
+UICorner_4.Parent = MegaHub
+
+Number1Text.Name = "Number1Text"
+Number1Text.Parent = MainFrame
+Number1Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Number1Text.BackgroundTransparency = 1.000
+Number1Text.Position = UDim2.new(0.00128141791, 0, 0.100977197, 0)
+Number1Text.Size = UDim2.new(0, 40, 0, 30)
+Number1Text.Font = Enum.Font.SourceSans
+Number1Text.Text = "1"
+Number1Text.TextColor3 = Color3.fromRGB(0, 0, 0)
+Number1Text.TextSize = 14.000
+
+SplitLabel.Name = "SplitLabel"
+SplitLabel.Parent = MainFrame
+SplitLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SplitLabel.BackgroundTransparency = 1.000
+SplitLabel.Position = UDim2.new(0.076444149, 0, 0.100977182, 0)
+SplitLabel.Size = UDim2.new(0, 830, 0, 123)
+SplitLabel.Font = Enum.Font.SourceSans
+SplitLabel.Text = "- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -"
+SplitLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+SplitLabel.TextScaled = true
+SplitLabel.TextSize = 14.000
+SplitLabel.TextWrapped = true
